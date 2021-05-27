@@ -4,11 +4,8 @@ theme: stack
 paginate: 5
 title: Roger Miret Giné
 
-# GA Tracking ID
 googleAnalytics: G-33NQSQ9YSW
 
-# Theme i18n support
-# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl
 DefaultContentLanguage: en
 
 permalinks:
@@ -61,7 +58,6 @@ params:
 
   opengraph:
     twitter:
-      # Your Twitter username
       site: roger_miret
 
       # Available values: summary, summary_large_image
