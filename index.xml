@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Roger Miret Giné</title><link>https://xaic.cat/</link><description>Recent content on Roger Miret Giné</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xaic.cat/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Roger Miret Giné</title><link>https://xaic.cat/</link><description>Recent content on Roger Miret Giné</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xaic.cat/index.xml" rel="self" type="application/rss+xml"/><item><title>Homelab setup</title><link>https://xaic.cat/blog/homelab-setup/</link><pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate><guid>https://xaic.cat/blog/homelab-setup/</guid><description>&lt;img src="https://xaic.cat/blog/homelab-setup/thomas-jensen-ISG-rUel0Uw-unsplash.jpg" alt="Featured image of post Homelab setup" />&lt;p>Back in 2014 I bought my first Raspberry Pi. At first it was only meant for tinkering. Homelab-ing, though, is like opening a bag of chips: once you start, you won&amp;rsquo;t be able to stop 😅.&lt;/p>
+&lt;p>However Raspberry Pies aren&amp;rsquo;t meant for production – I often found the RPi had destroyed the SD card, not to mention that back then they were &lt;em>slow&lt;/em>. So I kept my RPi for tinkering and ordered an Ubuntu droplet on DigitalOcean (&lt;a class="link" href="https://m.do.co/c/2cd92a75e89f" target="_blank" rel="noopener"
+>use this link to get $100 in credit&lt;/a> 🤑) for my production side projects and self-hosted apps.&lt;/p>
+&lt;hr>
+&lt;h2 id="wip">WIP&lt;/h2>
+&lt;p>Needs?:&lt;/p>
+&lt;ul>
+&lt;li>Storage&lt;/li>
+&lt;li>Compute power&lt;/li>
+&lt;li>Doesn&amp;rsquo;t break as often as rpi&lt;/li>
+&lt;li>Others?&lt;/li>
+&lt;/ul>
+&lt;h2 id="my-first-production-grade-server">My first production-grade server&lt;/h2>
+&lt;p>HPE Microserver Gen8 + 2 x 4Tb HDDs on a RAID1 setup.&lt;/p>
+&lt;p>Best thing of my homelab is that it was not planned &amp;amp; has evolved ==&amp;gt; lots of learning&lt;/p>
+&lt;hr>
+&lt;p>Used to run a mail server + updated the Linux kernel ==&amp;gt; the mail server stopped running&lt;/p>
+&lt;pre>&lt;code>Lessons learnt
+* Test on a staging env before updating prod
+* Don't run your own mail server
+&lt;/code>&lt;/pre></description></item></channel></rss>
