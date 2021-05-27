@@ -1,0 +1,25 @@
+<style>
+  .emoji {
+    cursor: pointer;
+    z-index: 0;
+    right: unset;
+    left: 80px;
+  }
+
+  .emoji:hover {
+    width: 240px !important;
+    text-align: left !important;
+    border-radius: 50px !important;
+    padding-left: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 255, 255, 0.04), 0px 2px 6px rgba(0, 255, 255, 0.04), 0px 0px 1px rgba(0, 255, 255, 0.04) !important;
+    transition: width 0.25s ease;
+  }
+
+  .emoji:hover::after {
+    content: "Buy me a slice of pizza";
+    position: absolute;
+    white-space: nowrap;
+    padding-left: 5px;
+    z-index: -1;
+  }
+</style>
