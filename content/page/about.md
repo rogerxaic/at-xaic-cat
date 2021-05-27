@@ -18,9 +18,9 @@ Hi, I'm Roger! I'm a telecom engineer ([INSA Lyon](https://www.insa-lyon.fr/) al
 
 You can find me on [Twitter](twitter.com/roger_miret), [LinkedIn](https://www.linkedin.com/in/rogermiret) or shoot me an email at [roger@xaic.cat](mailto:roger@xaic.cat?subject=I%20Found%20Your%20Website!) in 🇬🇧 🇫🇷 🇦🇩 🇪🇸 🇮🇹 🇩🇪 (I might fallback to English if you talk to me in German 😅).
 
-## Non-profit Associations
+## Hobbies @ NPOs
 
-Over the past few years I've found that a great way to gather around people with the same interests is to join (or create!) a non-profit association.
+Over the past few years I've found that a great way to gather around people with the same interests is to join (or create!) a non-profit organization.
 
 During INSA I joined:
 
