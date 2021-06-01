@@ -18,8 +18,10 @@
 {{- end -}}
 
 {{ with .Site.Params.favicon }}
-    <link rel="shortcut icon" href="{{ . }}" />
+    <link rel="shortcut icon" href="{{ . }}" type="image/gif" />
 {{ end }}
 
-{{- template "_internal/google_analytics.html" . -}}
+{{ if not .Site.IsServer }}
+    {{- template "_internal/google_analytics.html" . -}}
+{{ end }}
 {{- partial "head/custom.html" . -}}
