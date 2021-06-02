@@ -21,6 +21,19 @@
     <link rel="shortcut icon" href="{{ . }}" type="image/gif" />
 {{ end }}
 
+
+<script>
+    if (window.location.search.includes("disableAnalytics")) {
+        localStorage.setItem("disableAnalytics", "true");
+    }
+    const disableAnalytics = localStorage.getItem("disableAnalytics");
+    if (disableAnalytics) {
+        window.dataLayer = {
+            push: () => { },
+            slice: () => [],
+        }
+    }
+</script>
 {{ if not .Site.IsServer }}
     {{- template "_internal/google_analytics.html" . -}}
 {{ end }}
